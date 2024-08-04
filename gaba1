@@ -3,10 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GABA Time</title>
+    <title>GABA - Supplementation and Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50; /* Green color */
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .contact-info {
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .supplier {
+            background-color: #e0e0e0; /* Light gray for distinction */
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to GABA Time!</h1>
-    <p>Official page with GABA products.</p>
+    <header>
+        <h1>GABA - Supplementation and Products</h1>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About GABA</h2>
+            <p>GABA (gamma-aminobutyric acid) is a popular supplement that supports relaxation, stress reduction, and improved sleep quality. It is a natural neurotransmitter that plays a key role in the functioning of the nervous system.</p>
+        </section>
+        <section id="products">
+            <h2>GABA Products</h2>
+            <div class="product">
+                <h3>Product 1</h3>
+                <p>Description of product 1, its properties, and benefits.</p>
+                <a href="#purchase">Buy Now</a>
+            </div>
+            <div class="product">
+                <h3>Product 2</h3>
+                <p>Description of product 2, its properties, and benefits.</p>
+                <a href="#purchase">Buy Now</a>
+            </div>
+            <!-- Add more products in a similar style -->
+        </section>
+        <section id="alternatives">
+            <h2>Alternatives to GABA</h2>
+            <p>If you are looking for other options, consider the following:</p>
+            <ul>
+                <li>L-Theanine</li>
+                <li>5-HTP</li>
+                <li>Valerian Root</li>
+                <li>Magnesium</li>
+                <!-- Add more alternatives as needed -->
+            </ul>
+        </section>
+        <section id="suppliers">
+            <h2>For Potential GABA Suppliers</h2>
+            <div class="supplier">
+                <p>We are always looking for reliable suppliers of high-quality GABA. If you are interested in partnering with us, please contact us at:</p>
+                <div class="contact-info">
+                    <p><strong>Lessli Mariana Hernandez Pinto</strong></p>
+                    <p><strong>Michal Matyja</strong></p>
+                    <p>Email: <a href="mailto:apogealtd@gmail.com">apogealtd@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 GABA Supplementation and Products</p>
+    </footer>
 </body>
 </html>
